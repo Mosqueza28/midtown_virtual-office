@@ -23,14 +23,14 @@
 	  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 <body>
- <?php include "navigation.php"; ?>
+ <?php include "navigation.html"; ?>
 <div class="col-md-10 no--space">
   <header class="col-md-12"><p class="text__title">Home</p></header>
   <div class= "col-md-12 breadcrumbs"><span>Home>Page</span></div>
   <main>
-    <?php include "account-control.php"; ?>
+    <?php include "account-control.html"; ?>
   </main>
 </div>
-  <?php include "footer.php"; ?>
+  <?php include "footer.html"; ?>
 </body>
 </html>
