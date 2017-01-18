@@ -140,6 +140,10 @@ by Cheen */
 .text--italic {
 	font-style: italic;
 }
+.text--italic ul {
+}
+.text--italic ul li {
+}
 .checkbox--border:before {
 	content: "";
 	width: 17px;

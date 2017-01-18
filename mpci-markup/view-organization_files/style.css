@@ -1,0 +1,160 @@
+/**
+ - Filename: main.css
+ - Created On: July 7, 2016
+ - Version: 1
+ - Author: Your Name <your.email>
+ - Function:
+   - This a sample template for every file we make to monitor the authors of our codes
+   - Ex: This is the main template for the site.
+*/
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Arsenal-Regular.otf');
+}
+body {
+	background-color:#f3f3f3;
+	width:100%;
+}
+nav {
+}
+header {
+  height:62px;
+  background-color:#f3f3f3;
+  text-align:center;
+}
+[class*="col-"] {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.text__title {
+	padding: 18px 0px 5px 0px;
+}
+.breadcrumbs {
+	height:49px;
+	background-color:#777c88;
+	margin-bottom: 10px;
+}
+.nav__logo-container {
+	height:111px;
+	background-color:#ffffff;
+	padding: 5px;
+	text-align: center;
+}
+.nav__logo-image {
+	width:64px;
+	height:102px;
+	margin: auto;
+}
+.nav__profile-image {
+	height:204px;
+	background-color: #d9d9d9;
+}
+.nav__profile-information {
+	height:50px;
+	background-color:#777c88;
+	padding:5px;
+}
+.nav__dashboard-container {
+	height:106px;
+	background-color: #3e424e;
+}
+.nav__links-container {
+	height: 582px;
+	background-color: #3e424e;
+}
+.footer__logout {
+	height: 51px;
+	background-color: #3e424e;
+}
+.footer__container {
+	height:51px;
+	background-color: #777c88;
+}
+.text__profile-name {
+	text-align: center;
+	color: #ffffff;
+}
+.text__profile-position {
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 2px;
+}
+.text__dashboard {
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 10px 0px 0px 0px;
+}
+.nav__dashboard-notification {
+	height:106px;
+	margin: 0px 9px 0px 9px;
+	background-color: #ffffff;
+}
+.text__footer-logout {
+	color: #ffffff;
+	font-size: 14px;
+	padding: 5px 0px 0px 8px;
+}
+.panel {
+	margin-bottom: 10px;
+}
+.panel__text-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+.panel__input-container {
+	border: 0;
+	border-bottom: 1px solid #cccccc;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	height: 20px;
+}
+.panel__input-container {
+	border: 0;
+	border-bottom: 1px solid #cccccc;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 0;
+}
+.panel__input-container:focus {
+	border-color: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none);
+}
+input[type=checkbox] {
+	border: 1px solid #009640;
+}
+
+/*Modifier
+by Cheen */
+.no--space {
+		padding: 0;
+}
+.margin--bottom {
+	margin-bottom: 5px;
+}
+.text--italic {
+	font-style: italic;
+}
+.checkbox--border:before {
+	content: "";
+	width: 17px;
+	height: 17px;
+	padding: 0px 5px;
+	border: 1px solid #009640;
+}
+.button--dark {
+	background-color: #20232c;
+	color: #ffffff;
+}
+.button--dark:hover {
+	background-color: #4c4f56;
+	color: #ffffff;
+}
+.authority__button-container {
+	width: 170px;
+}
