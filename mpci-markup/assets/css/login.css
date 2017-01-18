@@ -1,0 +1,72 @@
+.login__container{
+  width: 357px;
+  height:384px;
+  margin: auto;
+  margin-top: 138px;
+}
+.login__logo{
+  display: flex;
+  justify-content: center;
+}
+.login__midtown-logo {
+  width: 65px;
+  height: 107px;
+}
+.login__title{
+  color: #009fe3;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+.login__input-container {
+  margin-bottom: 5px;
+}
+.login__button input {
+  width: 355px;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.login__input-icon {
+  float: left;
+  width: 50px;
+  height: 55px;
+  border: 2px solid #3e424e;
+  background-color: #3e424e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.login__input {
+  width: 303px;
+  height: 56px;
+  background: white;
+  color: rgba(33, 33, 33, 0.38);
+  font-size: 18px;
+  
+}
+.login__remember {
+  padding-top: 18px;
+}
+.login__forgot-password {
+  font-size: 14px;
+  text-decoration: none;
+}
+.login__remember input {
+  width: 15px;
+}
+.login--height {
+  height: 56px;
+}
+.button--grey {
+  background-color: #3e424e; 
+  color: #ffffff;
+}
+.text--remember {
+  font-size: 18px;
+    float: right;
+}
+.login__powered {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 200px;
+}
